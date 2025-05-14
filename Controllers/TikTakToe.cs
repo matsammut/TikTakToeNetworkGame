@@ -24,13 +24,7 @@ namespace TikTakToeSERVER.Controllers
         [HttpGet]
         public char[] Post()
         {
-            var rng = new Random();
-            /*return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
 
-                Summaries
-            })
-            .ToArray();*/
             return Summaries;
         }
     }
