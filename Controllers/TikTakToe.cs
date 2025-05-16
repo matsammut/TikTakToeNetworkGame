@@ -34,14 +34,14 @@ namespace TikTakToeSERVER.Controllers
         public IActionResult Post([FromBody] NewPosition bodyInner)
         {
             char value = bodyInner.Value.ToCharArray()[0];
+
             if (bodyInner.Position < 0 || bodyInner.Position > Summaries.Length){
                 return BadRequest("Position out of bounds");
-                /*return {'4','0'}*/
             }
 
-            if (value != 'O'|| value != 'X')
-            {
-                return BadRequest("Invalid input value");
+            if (value != 'O' || value != 'X') { 
+                string error = "Invalid input value :" + value;
+                return BadRequest(error);
             }
             
             if (Summaries[bodyInner.Position] != ' '){
