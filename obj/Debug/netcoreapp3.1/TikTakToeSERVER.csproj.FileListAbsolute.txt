@@ -18,3 +18,5 @@ C:\Users\msammut\source\repos\TikTakToeSERVER\TikTakToeSERVER\obj\Debug\netcorea
 C:\Users\msammut\source\repos\TikTakToeSERVER\TikTakToeSERVER\obj\Debug\netcoreapp3.1\TikTakToeSERVER.dll
 C:\Users\msammut\source\repos\TikTakToeSERVER\TikTakToeSERVER\obj\Debug\netcoreapp3.1\TikTakToeSERVER.pdb
 C:\Users\msammut\source\repos\TikTakToeSERVER\TikTakToeSERVER\obj\Debug\netcoreapp3.1\TikTakToeSERVER.genruntimeconfig.cache
+C:\Users\msammut\source\repos\TikTakToeSERVER\TikTakToeSERVER\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\msammut\source\repos\TikTakToeSERVER\TikTakToeSERVER\obj\Debug\netcoreapp3.1\TikTakToeSERVER.csproj.CopyComplete
