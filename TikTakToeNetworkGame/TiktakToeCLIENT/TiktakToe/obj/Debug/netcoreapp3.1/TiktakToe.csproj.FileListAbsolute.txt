@@ -1,0 +1,13 @@
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToe.exe
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToe.deps.json
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToe.runtimeconfig.json
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToe.runtimeconfig.dev.json
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToe.dll
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToe.pdb
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToe.csproj.AssemblyReference.cache
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToe.AssemblyInfoInputs.cache
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToe.AssemblyInfo.cs
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToe.csproj.CoreCompileInputs.cache
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToe.dll
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToe.pdb
+C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToe.genruntimeconfig.cache
