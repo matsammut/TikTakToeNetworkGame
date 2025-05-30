@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Net.Http;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
@@ -18,7 +19,8 @@ namespace TicTacToeClient
     {
         static async Task Main(string[] args)
         {
-            string serverUrl = "http://SSSD-ACU-DEV5:64920/tiktaktoe";
+
+            string serverUrl = "http://192.168.160.58:64920/tiktaktoe";
 
 
             Console.WriteLine("Tic Tac Toe Client");
@@ -28,7 +30,18 @@ namespace TicTacToeClient
 
             while (true)
             {
-                Console.Write("Enter position (0-8): ");
+                using var client = new HttpClient();
+
+                Console.Write("Enter S for Status: ");
+                string code = Console.ReadLine();
+
+                if (code.ToLower() == "s")
+                {
+                    var statusResponse = await client.GetAsync(serverUrl + "/GetStatus");
+                    ParseResponse(statusResponse);
+                }
+
+                Console.Write("\nEnter position (0-8): ");
                 string posInput = Console.ReadLine();
 
                 Console.Write("Enter value (X or O): ");
@@ -57,41 +70,9 @@ namespace TicTacToeClient
                 string json = System.Text.Json.JsonSerializer.Serialize(move);
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-                try
-                {
-                    using var client = new HttpClient();
-                    var response = await client.PostAsync(serverUrl, content);
+                var response = await client.PostAsync(serverUrl, content);
+                ParseResponse(response);
 
-                    if (response.IsSuccessStatusCode)
-                    {
-                        string resultJson = await response.Content.ReadAsStringAsync();
-
-                        var gameResult = System.Text.Json.JsonSerializer.Deserialize<GameResult>(resultJson);
-
-                        PrintBoard(gameResult.Board);
-
-                        if (!string.IsNullOrEmpty(gameResult.Winner))
-                        {
-                            if (gameResult.Winner == "D")
-                                Console.WriteLine("It's a draw!");
-                            else
-                                Console.WriteLine($"Player {gameResult.Winner} wins!");
-
-                            break;
-                        }
-                    }
-                    else
-                    {
-                        string error = await response.Content.ReadAsStringAsync();
-                        Console.WriteLine($"Error: {error}");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Failed to connect to server: " + ex.Message);
-                }
-
-                Console.WriteLine();
             }
         }
 
@@ -105,6 +86,8 @@ namespace TicTacToeClient
                 else
                     Console.Write("|");
             }
+
+            Console.WriteLine();
         }
 
         static void PrintBoardTemplate()
@@ -119,6 +102,40 @@ namespace TicTacToeClient
                     Console.Write("|");
             }
             Console.WriteLine();
+        }
+
+        static async void ParseResponse(HttpResponseMessage response)
+        {
+
+            try
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    string resultJson = await response.Content.ReadAsStringAsync();
+
+                    var gameResult = System.Text.Json.JsonSerializer.Deserialize<GameResult>(resultJson);
+
+                    PrintBoard(gameResult.Board);
+
+                    if (!string.IsNullOrEmpty(gameResult.Winner))
+                    {
+                        if (gameResult.Winner == "D")
+                            Console.WriteLine("It is a Draw");
+                        else
+                            Console.WriteLine($"Player {gameResult.Winner} wins");
+
+                    }
+                }
+                else
+                {
+                    string error = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"Error: {error}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Failed to connect to server: " + ex.Message);
+            }
         }
 
     }
