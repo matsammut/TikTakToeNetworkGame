@@ -1,0 +1,13 @@
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Release\netcoreapp3.1\TiktakToeCLIENT.exe
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Release\netcoreapp3.1\TiktakToeCLIENT.deps.json
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Release\netcoreapp3.1\TiktakToeCLIENT.runtimeconfig.json
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Release\netcoreapp3.1\TiktakToeCLIENT.runtimeconfig.dev.json
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Release\netcoreapp3.1\TiktakToeCLIENT.dll
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Release\netcoreapp3.1\TiktakToeCLIENT.pdb
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Release\netcoreapp3.1\TiktakToeCLIENT.csproj.AssemblyReference.cache
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Release\netcoreapp3.1\TiktakToeCLIENT.AssemblyInfoInputs.cache
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Release\netcoreapp3.1\TiktakToeCLIENT.AssemblyInfo.cs
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Release\netcoreapp3.1\TiktakToeCLIENT.csproj.CoreCompileInputs.cache
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Release\netcoreapp3.1\TiktakToeCLIENT.dll
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Release\netcoreapp3.1\TiktakToeCLIENT.pdb
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Release\netcoreapp3.1\TiktakToeCLIENT.genruntimeconfig.cache

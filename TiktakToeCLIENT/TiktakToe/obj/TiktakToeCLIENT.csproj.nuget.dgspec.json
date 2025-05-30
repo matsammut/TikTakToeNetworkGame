@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\msammut\\source\\repos\\TiktakToe\\TiktakToe\\TiktakToeCLIENT.csproj": {}
+    "C:\\Users\\msammut\\Documents\\GitHub\\TikTakToeNetworkGame\\TiktakToeCLIENT\\TiktakToe\\TiktakToeCLIENT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\msammut\\source\\repos\\TiktakToe\\TiktakToe\\TiktakToeCLIENT.csproj": {
+    "C:\\Users\\msammut\\Documents\\GitHub\\TikTakToeNetworkGame\\TiktakToeCLIENT\\TiktakToe\\TiktakToeCLIENT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msammut\\source\\repos\\TiktakToe\\TiktakToe\\TiktakToeCLIENT.csproj",
+        "projectUniqueName": "C:\\Users\\msammut\\Documents\\GitHub\\TikTakToeNetworkGame\\TiktakToeCLIENT\\TiktakToe\\TiktakToeCLIENT.csproj",
         "projectName": "TiktakToeCLIENT",
-        "projectPath": "C:\\Users\\msammut\\source\\repos\\TiktakToe\\TiktakToe\\TiktakToeCLIENT.csproj",
+        "projectPath": "C:\\Users\\msammut\\Documents\\GitHub\\TikTakToeNetworkGame\\TiktakToeCLIENT\\TiktakToe\\TiktakToeCLIENT.csproj",
         "packagesPath": "C:\\Users\\msammut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\msammut\\source\\repos\\TiktakToe\\TiktakToe\\obj\\",
+        "outputPath": "C:\\Users\\msammut\\Documents\\GitHub\\TikTakToeNetworkGame\\TiktakToeCLIENT\\TiktakToe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\msammut\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\msammut\\Documents\\GitHub\\temp\\TikTakToeSERVER\\TikTakToeSERVER\\TikTakToeSERVER.csproj",
+      "projectUniqueName": "C:\\Users\\msammut\\Documents\\GitHub\\TikTakToeNetworkGame\\TikTakToeSERVER\\TikTakToeSERVER\\TikTakToeSERVER.csproj",
       "projectName": "TikTakToeSERVER",
-      "projectPath": "C:\\Users\\msammut\\Documents\\GitHub\\temp\\TikTakToeSERVER\\TikTakToeSERVER\\TikTakToeSERVER.csproj",
+      "projectPath": "C:\\Users\\msammut\\Documents\\GitHub\\TikTakToeNetworkGame\\TikTakToeSERVER\\TikTakToeSERVER\\TikTakToeSERVER.csproj",
       "packagesPath": "C:\\Users\\msammut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\msammut\\Documents\\GitHub\\temp\\TikTakToeSERVER\\TikTakToeSERVER\\obj\\",
+      "outputPath": "C:\\Users\\msammut\\Documents\\GitHub\\TikTakToeNetworkGame\\TikTakToeSERVER\\TikTakToeSERVER\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\msammut\\AppData\\Roaming\\NuGet\\NuGet.Config",

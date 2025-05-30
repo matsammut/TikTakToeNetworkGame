@@ -11,3 +11,16 @@ C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\Tiktak
 C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.dll
 C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.pdb
 C:\Users\msammut\source\repos\TiktakToe\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.genruntimeconfig.cache
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToeCLIENT.exe
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToeCLIENT.deps.json
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToeCLIENT.runtimeconfig.json
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToeCLIENT.runtimeconfig.dev.json
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToeCLIENT.dll
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\bin\Debug\netcoreapp3.1\TiktakToeCLIENT.pdb
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.csproj.AssemblyReference.cache
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.AssemblyInfoInputs.cache
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.AssemblyInfo.cs
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.csproj.CoreCompileInputs.cache
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.dll
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.pdb
+C:\Users\msammut\Documents\GitHub\TikTakToeNetworkGame\TiktakToeCLIENT\TiktakToe\obj\Debug\netcoreapp3.1\TiktakToeCLIENT.genruntimeconfig.cache
