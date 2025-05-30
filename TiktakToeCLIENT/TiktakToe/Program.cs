@@ -20,7 +20,11 @@ namespace TicTacToeClient
         static async Task Main(string[] args)
         {
 
-            string serverUrl = "http://192.168.160.58:64920/tiktaktoe";
+            //string serverUrl = "http://192.168.160.58:64920/tiktaktoe";
+            Console.Write("Enter the server details {ip}:{port}: ");
+            string serverUrl = Console.ReadLine();
+            serverUrl = "http://"+serverUrl + "/tiktaktoe";
+            Console.WriteLine("\n" + serverUrl);
 
 
             Console.WriteLine("Tic Tac Toe Client");
