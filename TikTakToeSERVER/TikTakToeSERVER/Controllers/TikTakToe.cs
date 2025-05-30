@@ -97,6 +97,17 @@ namespace TikTakToeSERVER.Controllers
 
         }
 
+        [HttpGet("GetStatus")]
+        public IActionResult GetStatus()
+        {
+            var winner = CheckWin(Summaries);
+            return Ok(new
+            {
+                Board = Summaries,
+                Winner = winner
+            });
+        }
+
         public void ResetSummaries()
         {
             for (int i = 0; i < Summaries.Length; i++)
